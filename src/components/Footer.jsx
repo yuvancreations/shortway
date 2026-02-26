@@ -9,9 +9,7 @@ export default function Footer() {
 
                     <div className="md:col-span-1">
                         <Link to="/" className="flex items-center gap-2 group mb-6 inline-flex">
-                            <div className="w-10 h-10 rounded-xl gradient-bg flex items-center justify-center glow text-white font-bold text-xl group-hover:scale-110 transition-transform">
-                                SW
-                            </div>
+                            <img src="/logo.png" alt="Shortway Logo" className="w-12 h-12 object-contain group-hover:scale-110 transition-transform drop-shadow-[0_0_15px_rgba(138,43,226,0.6)]" />
                             <span className="font-outfit font-bold text-2xl tracking-tight">
                                 SHORT<span className="text-[#b28bff]">WAY</span>
                             </span>
@@ -52,9 +50,8 @@ export default function Footer() {
                     <div>
                         <h4 className="font-bold text-lg mb-6">Contact Us</h4>
                         <ul className="space-y-3 text-gray-400 text-sm">
-                            <li>info@shortway.agency</li>
-                            <li>+1 (555) 123-4567</li>
-                            <li>120 Tech Boulevard, Suite 300<br />San Francisco, CA 94107</li>
+                            <li><a href="https://www.shortway.in" className="hover:text-[#E0B0FF] transition-colors">www.shortway.in</a></li>
+                            <li>Mob. 7302718150</li>
                         </ul>
                     </div>
 

@@ -34,9 +34,7 @@ export default function AuthModal({ isOpen, onClose }) {
                     </button>
 
                     <div className="text-center mb-8">
-                        <div className="w-12 h-12 rounded-xl gradient-bg mx-auto flex items-center justify-center mb-4 glow">
-                            <span className="font-bold text-xl text-white">SW</span>
-                        </div>
+                        <img src="/logo.png" alt="Shortway Logo" className="w-12 h-12 mx-auto mb-4 object-contain drop-shadow-[0_0_15px_rgba(138,43,226,0.6)]" />
                         <h2 className="text-3xl font-bold font-outfit text-white">
                             {isLogin ? 'Welcome Back' : 'Create Account'}
                         </h2>

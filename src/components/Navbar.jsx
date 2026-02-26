@@ -24,9 +24,7 @@ export default function Navbar() {
 
                     {/* Logo */}
                     <Link to="/" className="flex items-center gap-2 group">
-                        <div className="w-10 h-10 rounded-xl gradient-bg flex items-center justify-center glow text-white font-bold text-xl group-hover:scale-110 transition-transform">
-                            SW
-                        </div>
+                        <img src="/logo.png" alt="Shortway Logo" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform drop-shadow-[0_0_15px_rgba(138,43,226,0.6)]" />
                         <span className="font-outfit font-bold text-2xl tracking-tight hidden sm:block">
                             SHORT<span className="text-[#b28bff]">WAY</span>
                         </span>
